@@ -1,0 +1,30 @@
+.login{
+	text-align: center;
+	font-family: 'Hanalei Fill', cursive;
+	font-size: 40px;
+	color: darkblue;
+}
+h2{
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: brown;
+}
+.log-page{
+	background-color: skyblue;
+	padding: 10px;
+	width: 400px;
+	margin: 0 auto;
+	border-radius: 35px 0px;
+	color: darkblue;
+	box-shadow: 20px 20px 5px 5px pink, inset 5px 5px 5px blue;
+}
+#det{
+	line-height: 1.8;
+	margin: 20px;
+	color: brown;
+}
+h3{
+	margin: 10px;
+	color: brown;
+	font-family: 'Roboto Mono', monospace;
+}

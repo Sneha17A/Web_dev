@@ -1,0 +1,21 @@
+.reg{
+	background-color:  skyblue;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 35px;
+	border-radius: 20px;
+	color: darkblue;
+}
+h2{
+	color: brown;
+	text-align: center;
+}
+#reg-form{
+	width: 350px;
+	background-color: lightgreen;
+	line-height: 1.8;
+	padding: 30px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 5px darkgreen; 
+}
