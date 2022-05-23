@@ -1,0 +1,88 @@
+#container{
+    width: auto;
+    float: top;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#topSide{
+    width: auto;
+    height: 200px;
+    float:top;
+    background-color: gray;
+}
+
+#bottomSide{
+    width: auto;
+    height: 300px;
+    float:bottom;
+    /* background-color: rgba(209, 209, 209, 0.63); */
+}
+#circle{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left:-1000;
+    right: 0;
+    top:0;
+    bottom:100;
+    margin: auto;
+    /* background-color: black; */
+}
+/* #circle img{
+   width: 200px;
+   height: 200px;
+} */
+.oval-button{
+    border-radius: 12px;
+}
+#btn-1{
+    background-color: rgb(79, 79, 233);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+}
+#btn-2{
+    border-color: rgb(79, 79, 214);
+    color: blue;
+    padding: 3px;
+}
+#btn-3{
+    border-color: rgb(143, 142, 142);
+    color: gray;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+@media only screen and (max-width: 1000px){
+    #bottomSide{
+        width: auto;
+        height: 500px;
+        float:bottom;  
+    }
+    #circle{
+        width: 75px;
+        height: 75px;
+        display: block;
+        margin: auto;
+        position: absolute;
+        left:-50;
+        right: 20;
+        top:0;
+        bottom:400;
+    }
+}
+@media only screen and (min-width: 1000){
+    #circle{
+        width: 100px;
+        height: 200px;
+        position: absolute;
+        left:-1000;
+        right: 0;
+        top:0;
+        bottom:100;
+        margin: auto;
+        /* background-color: black; */
+    }   
+}
